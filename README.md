@@ -31,6 +31,7 @@ L=1..5, computes NRdB.
    Z = audioread('airplane.wav');   % or any other signal
    Z = Z(:,1);                      % if stereo, use one channel
    znext = adaptivepredict(Z);
+   ...
 
 
    Inside the function:
