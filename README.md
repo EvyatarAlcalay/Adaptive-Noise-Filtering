@@ -26,9 +26,13 @@ L=1..5, computes NRdB.
    -This function receives a vector of samples z_1,...,z_n (e.g. an audio segment) and z\hat_(n-1) returns the predicted next sample.
    -It internally tests multiple parameter sets for RLS and LMS and selects the one that achieves the best NRdB.
    Example:
+
+   ```
    Z = audioread('airplane.wav');   % or any other signal
    Z = Z(:,1);                      % if stereo, use one channel
    znext = adaptivepredict(Z);
+
+   ---
 
    Inside the function:
    -RLS is tested with L_values_RLS = [10 20 30], lambda_vals = [0.01, 0.5, 0.999], delta = 1.
