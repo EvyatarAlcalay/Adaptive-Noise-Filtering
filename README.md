@@ -6,20 +6,13 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 ## 📂 Repository Structure
 adaptive-noise-filtering/
 ├─ README.md
-├─ LICENSE
-├─ .gitignore
 ├─ docs/                  # Project PDF and additional documents
 ├─ data/
 │  ├─ raw/                # Original audio files (e.g., airplane.wav, cafe.wav, city.wav, vacuumcleaner.wav)
 │  └─ processed/          # Processed signals (created during experiments)
 ├─ src/
-│  └─ matlab/             # MATLAB scripts and functions
-│     ├─ Adaptive_Filters.m      # Main script divided into sections (Q1–Q5)
-│     └─ adaptivepredict.m       # Prediction function for competition (Q6)
-├─ results/
-│  ├─ figures/            # Generated plots
-│  └─ audio/              # Denoised audio outputs
-└─ tests/                 # Optional test scripts
+│  ├─ Adaptive_Filters.m      # Main script divided into sections (Q1–Q5)
+│  ├─ adaptivepredict.m       # Prediction function for competition (Q6)
 
 
 ## ⚙️ Requirements
