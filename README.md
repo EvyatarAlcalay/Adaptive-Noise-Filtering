@@ -4,6 +4,7 @@ A signal processing project focused on **adaptive noise filtering** using algori
 Includes MATLAB implementations, experiments on real audio files, performance plots, and NRdB evaluation.
 
 ## 📂 Repository Structure
+```
 ├─ README.md
 adaptive-noise-filtering/
 ├─ docs/                  # Project PDF and additional documents
@@ -13,7 +14,7 @@ adaptive-noise-filtering/
 ├─ src/
 │  ├─ Adaptive_Filters.m      # Main script divided into sections (Q1–Q5)
 │  ├─ adaptivepredict.m       # Prediction function for competition (Q6)
-
+```
 
 ## ⚙️ Requirements
 - MATLAB R2020a or later  
