@@ -29,8 +29,8 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 
 
 ### 2) Running 'adaptivepredict.m'
-   -This function receives a vector of samples z_1,...,z_n (e.g. an audio segment) and z\hat_(n-1) returns the predicted next sample.
-   -It internally tests multiple parameter sets for RLS and LMS and selects the one that achieves the best NRdB.
+- This function receives a vector of samples z_1,...,z_n (e.g. an audio segment) and z\hat_(n-1) returns the predicted next sample.
+- It internally tests multiple parameter sets for RLS and LMS and selects the one that achieves the best NRdB.
    
    Example:
 
