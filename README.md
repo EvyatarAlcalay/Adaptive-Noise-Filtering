@@ -16,15 +16,12 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 
 - Open MATLAB and set the Current Folder to the repository root. Make sure the .wav files are accessible from this folder
 - Open `Adaptive_Filters.m`
-- The script is divided into Sections (marked with %%). Each section corresponds to a specific question. Run them one by one using Run Section (Ctrl+Enter)
+- The script is divided into Sections (marked with `%%`). Each section corresponds to a specific question. Run them one by one using **Run Section** (Ctrl+Enter)
 
 #### Mapping Sections:
 
--%% The code for section 4,5 in Q1 – Generates AR(1) process, computes statistics (mean/second moment), finds β, runs optimal filters for 
-𝐿
-=
-1..5
-L=1..5, computes NRdB.
+- `%% The code for section 4,5 in Q1` – Generates the AR(1) process, computes empirical statistics (mean/second moment), finds β, runs optimal filters for **L=1.5** and calculates NRdB.
+- `%% 2A: calculation of the R matrix and its eignables values` – Builds the autocorrelation matrix 𝑅, computes eigenvalues, and analyzes λmax for step-size selection.
 
 
 ### 2) Running 'adaptivepredict.m'
