@@ -32,7 +32,6 @@ L=1..5, computes NRdB.
    Z = Z(:,1);                      % if stereo, use one channel
    znext = adaptivepredict(Z);
 
-   ---
 
    Inside the function:
    -RLS is tested with L_values_RLS = [10 20 30], lambda_vals = [0.01, 0.5, 0.999], delta = 1.
