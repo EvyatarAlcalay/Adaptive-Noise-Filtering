@@ -49,14 +49,13 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 
 
 ## 📊 Main Experiments
-
--Steepest Descent: Step-size effect and weight error convergence.
--LMS/NLMS: Convergence speed and misadjustment for different parameters.
--RLS: Effect of forgetting factor (λ) and initialization (δ).
--Audio Denoising: Instantaneous power plots, NRdB calculations, and side-by-side comparison of noisy vs denoised signals.
+- **Steepest Descent:** Step-size effect and weight error convergence.
+- **LMS/NLMS:** Convergence speed and misadjustment for different parameters.
+- **RLS:** Effect of forgetting factor (λ) and initialization (δ).
+- **Audio Denoising:** Instantaneous power plots, NRdB calculations, and side-by-side comparison of noisy vs denoised signals.
 
 ## 📈 Results
--Figures saved to results/figures/
--Denoised audio saved to results/audio/
+- Figures saved to results/figures/
+- Denoised audio saved to results/audio/
    
 
