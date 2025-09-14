@@ -4,8 +4,8 @@ A signal processing project focused on **adaptive noise filtering** using algori
 Includes MATLAB implementations, experiments on real audio files, performance plots, and NRdB evaluation.
 
 ## 📂 Repository Structure
-adaptive-noise-filtering/
 ├─ README.md
+adaptive-noise-filtering/
 ├─ docs/                  # Project PDF and additional documents
 ├─ data/
 │  ├─ raw/                # Original audio files (e.g., airplane.wav, cafe.wav, city.wav, vacuumcleaner.wav)
