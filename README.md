@@ -7,10 +7,10 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 ```
 ├─ README.md
 adaptive-noise-filtering/
-├─ docs/                  # Project PDF and additional documents
+├─ docs/                      # Project PDF and Project answers and summery
 ├─ data/
-│  ├─ raw/                # Original audio files (e.g., airplane.wav, cafe.wav, city.wav, vacuumcleaner.wav)
-│  └─ processed/          # Processed signals (created during experiments)
+│  ├─ audio files/            # Original audio files (e.g., airplane.wav, cafe.wav, city.wav, vacuumcleaner.wav)
+│  └─ output files/           # All the results from all questions (graphs)
 ├─ src/
 │  ├─ Adaptive_Filters.m      # Main script divided into sections (Q1–Q5)
 │  ├─ adaptivepredict.m       # Prediction function for competition (Q6)
