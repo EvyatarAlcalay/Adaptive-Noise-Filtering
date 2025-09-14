@@ -65,7 +65,7 @@ adaptive-noise-filtering/
 - **Audio Denoising:** Instantaneous power plots, NRdB calculations, and side-by-side comparison of noisy vs denoised signals.
 
 ## 📈 Results
-- Figures saved to adaptive-noise-filtering/output files/
-- All the results are sumerrized at the 
+- Figures saved to `adaptive-noise-filtering/output files/`
+- All the results are sumerrized at `adaptive-noise-filtering/docs/Adaptive Filters Project- Answers.pdf` 
    
 
