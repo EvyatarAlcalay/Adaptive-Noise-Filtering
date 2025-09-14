@@ -14,7 +14,7 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
 ## ▶️ How to Run
 ### 1) Running `Adaptive_Filters.m` by Sections:
 
-- Open MATLAB and set the Current Folder to the repository root. Make sure the .wav files are accessible from this folder
+- Open MATLAB and set the Current Folder to the repository root. Make sure the `.wav` files are accessible from this folder
 - Open `Adaptive_Filters.m`
 - The script is divided into Sections (marked with `%%`). Each section corresponds to a specific question. Run them one by one using **Run Section** (Ctrl+Enter)
 
