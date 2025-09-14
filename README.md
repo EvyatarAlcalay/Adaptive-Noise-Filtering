@@ -44,6 +44,7 @@ Includes MATLAB implementations, experiments on real audio files, performance pl
    Inside the function:
    - **RLS** is tested with `L_values_RLS = [10 20 30], lambda_vals = [0.01, 0.5, 0.999], delta = 1`.
    - **LMS** is tested with `L_values_LMS = [5 10 15], mu_vals = [0.85 9 0.01]`.
+   
    Note: some μ values (e.g., μ=9) are aggressive and may be unstable; they were included for experimentation.
 
 
