@@ -25,7 +25,7 @@ adaptive-noise-filtering/
 ### 1) Running `Adaptive_Filters.m` by Sections:
 
 - Open MATLAB and set the Current Folder to the repository root. Make sure the `.wav` files are accessible from this folder
-- Open `Adaptive_Filters.m`
+- Open [`Adaptive_Filters.m`](adaptive-noise-filtering/src/Adaptive_Filters.m)
 - The script is divided into Sections (marked with `%%`). Each section corresponds to a specific question. Run them one by one using **Run Section** (Ctrl+Enter)
 
 #### Mapping Sections:
